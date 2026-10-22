@@ -20,22 +20,22 @@ npm run dev
 
 ## 2. 文件位置与修改入口
 
-| 文件 | 用途 |
-| --- | --- |
-| `src/main.tsx` | 启动入口与 `/design-lab` 路由 |
-| `app/portal.tsx` | 首页、导航、页脚 |
-| `app/portal.css` | 新版视觉和响应式布局 |
-| `app/globals.css` | 原有量表、VR 与设计实验室样式 |
-| `app/experience.tsx` | 量表前测、体验、后测、报告及导出 |
-| `app/assessment-data.ts` | 量表题目、分流与计分规则 |
-| `app/experience-modules.tsx` | 资源库、摄像头预览与模拟情绪记录 |
-| `app/vr-mindfulness.tsx` | 3D 光息花园与 WebXR |
-| `app/research-modules.tsx` | 科研数据整理、导师履历和团队 |
-| `app/research-data.ts` | 七篇论文与 WoS 链接、下载工具 |
-| `app/design-lab/design-lab.tsx` | 原站设计体验实验室 |
-| `public/mindful-breathing.mp4` | 原站正念视频（已包含） |
-| `components/ui/` | 共享界面控件 |
-| `deploy/` | 自有服务器的 Nginx 示例配置 |
+| 文件                              | 用途                             |
+| --------------------------------- | -------------------------------- |
+| `src/main.tsx`                  | 启动入口与`/design-lab` 路由   |
+| `app/portal.tsx`                | 首页、导航、页脚                 |
+| `app/portal.css`                | 新版视觉和响应式布局             |
+| `app/globals.css`               | 原有量表、VR 与设计实验室样式    |
+| `app/experience.tsx`            | 量表前测、体验、后测、报告及导出 |
+| `app/assessment-data.ts`        | 量表题目、分流与计分规则         |
+| `app/experience-modules.tsx`    | 资源库、摄像头预览与模拟情绪记录 |
+| `app/vr-mindfulness.tsx`        | 3D 光息花园与 WebXR              |
+| `app/research-modules.tsx`      | 科研数据整理、导师履历和团队     |
+| `app/research-data.ts`          | 七篇论文与 WoS 链接、下载工具    |
+| `app/design-lab/design-lab.tsx` | 原站设计体验实验室               |
+| `public/mindful-breathing.mp4`  | 原站正念视频（已包含）           |
+| `components/ui/`                | 共享界面控件                     |
+| `deploy/`                       | 自有服务器的 Nginx 示例配置      |
 
 可先修改标题、正文与颜色；量表题目和计分逻辑的改动应经过专业核对，不能随意改分数阈值。
 

@@ -118,19 +118,19 @@ export function severityFor(scaleId: ScaleId, score: number, age: AgeBand) {
       if (score >= 17) return { label: "重度范围", tone: "red" };
       if (score >= 11) return { label: "中度范围", tone: "amber" };
       if (score >= 5) return { label: "轻度范围", tone: "blue" };
-      return { label: "极轻或无明显症状", tone: "green" };
+      return { label: "极轻或无明显反应", tone: "green" };
     }
     if (score >= 15) return { label: "重度范围", tone: "red" };
     if (score >= 10) return { label: "中度范围", tone: "amber" };
     if (score >= 5) return { label: "轻度范围", tone: "blue" };
-    return { label: "极轻或无明显症状", tone: "green" };
+    return { label: "极轻或无明显反应", tone: "green" };
   }
   if (scaleId === "PHQ9") {
     if (score >= 20) return { label: "重度范围", tone: "red" };
     if (score >= 15) return { label: "中重度范围", tone: "red" };
     if (score >= 10) return { label: "中度范围", tone: "amber" };
     if (score >= 5) return { label: "轻度范围", tone: "blue" };
-    return { label: "极轻或无明显症状", tone: "green" };
+    return { label: "极轻或无明显反应", tone: "green" };
   }
   if (score >= 12) return { label: "重度范围", tone: "red" };
   if (score >= 9) return { label: "中度范围", tone: "amber" };
